@@ -1,0 +1,43 @@
+*{background-color: #ffe6ff;
+    box-sizing: border-box;}
+
+    h1{
+        align-self: center;
+        text-align: center;
+    }
+
+    .logindiv{
+        margin-left : 16%;
+        margin-right : 16%;
+        background-color: white;
+        align-items: center;
+    }
+
+    .fields{
+        margin-left: 16%;
+        width: 70%;
+        padding: 5px;
+        border: black;
+        background-color:  #e6e6e6;
+        
+        border-radius: 5%;
+        font-size: 20px;
+    }
+
+    .labels{
+        margin-left: 16%;
+        
+        font-size: 20px;
+    }
+
+    .loginbtn{
+        margin-left: 28%;
+        width: 40%;
+        padding: 20px;
+        border: black ;
+        background-color: #04AA6D;
+        cursor: pointer;
+        color:white;
+        font-size: 20px;
+
+    }
