@@ -1,0 +1,154 @@
+.leftprofile {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    color:white;
+    left: 0%;
+
+}
+
+.leftprofile img{
+    width:60%;
+    height: 30%;
+    border-radius: 50%; 
+    border: black solid 2px;
+}
+
+.details{
+    text-align: justify;
+    margin-left: 5%; 
+    font-size: 20px;
+}
+
+
+.rightpanel{
+    height: 97.5%;
+    position: absolute;
+    right: 0%;
+    width: 73.8%;
+    background-color: #ddd;
+    padding: 10px 10px 10px 10px;
+}
+
+.searchbar{
+    border-radius: 10px;
+    background-color: white;
+    padding: 12px 12px;
+    display: flex;
+}
+
+.searchbar input{
+    background: transparent;
+    border: #ddd solid 1px;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 95%;
+    border-radius: 5px;
+    
+}
+
+.searchbar button {
+    width: 6%;
+    background-color: #2196F3;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.searchdiv button img{
+    height: 70%;
+    width: 80%;
+    padding: 5%;
+    background: transparent;
+}
+.other-profile {
+    display: flex;
+    margin-bottom: 1.5%;
+    
+}
+
+.col1{
+    background-color: white;
+    width: 50%;
+    margin-right:1% ;
+    border-radius: 5px;
+    
+}
+
+.col2{
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+
+li {
+    list-style-type: none;   
+}
+
+table img{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border-radius: 30px;
+}  
+
+table td button {
+    background-color: #4CC417;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2px;
+    margin: 4px;
+}
+
+table td button img{
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border-radius: 30px;
+    padding: 3px;
+} 
+
+.detailbtn{
+    display:flex;right: 52%; position: absolute;
+}
+
+.detailbtn1{
+    display:flex;right:2%; position: absolute;
+}
+
+
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.social button{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    filter: grayscale(100%);
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.social button img{
+    height: 35px;
+    width: 35px;
+    background: transparent;
+    border-radius: 30px;
+    right: 0;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
