@@ -16,7 +16,7 @@
 - Mobile number
 - Password
 
-3. Dashboard Pahge
+3. Dashboard Page
 - Profile Layouts
 - Header
 - Footer
